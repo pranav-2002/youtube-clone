@@ -1,0 +1,60 @@
+.videoRow {
+  display: flex;
+  margin-bottom: 30px;
+  max-width: 1200px;
+}
+
+.videoRow__thumbnail {
+  width: 356px;
+  height: 245px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.videoRow__text {
+  margin-left: 14px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.videoRow__description {
+  margin-top: 15px;
+  font-size: 12px;
+  margin-left: 5px;
+  color: #aaaaaa;
+  line-height: 12px;
+  font-weight: 500;
+}
+
+.videoRow__headline {
+  font-size: 13px;
+  color: #aaaaaa;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.videoRow__headline:hover {
+  color: white;
+}
+
+.videoRow__channelInfo {
+  display: flex;
+  align-items: center;
+}
+
+.videoRow__avatar {
+  height: 25px !important;
+  width: 25px !important;
+  margin: 15px 0 0 5px;
+}
+
+.videoRow__title {
+  font-weight: 400;
+}
+
+.videoRow__views {
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaaaaa;
+}

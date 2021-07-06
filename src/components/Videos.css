@@ -1,0 +1,17 @@
+.videos {
+  color: white;
+  flex: 0.8;
+  padding: 40px 20px;
+  padding-bottom: 0;
+}
+
+.videos__heading {
+  margin-left: 5px;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+.videos__cards {
+  display: flex;
+  flex-wrap: wrap;
+}

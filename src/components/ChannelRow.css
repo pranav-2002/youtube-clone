@@ -1,0 +1,45 @@
+.channelRow {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+.channelRow__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.channelRow__text > p {
+  color: #aaaaaa;
+  font-size: small;
+  line-height: 22px;
+}
+
+.channelRow__logo {
+  height: 120px !important;
+  width: 120px !important;
+  margin: 10px 60px;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.channelRow__subscribe {
+  font-size: 14px;
+  font-weight: 500;
+  border: 1px solid red;
+  border-radius: 2px;
+  width: 110px;
+  text-align: center;
+  padding: 0.5em;
+  background-color: red;
+  margin-top: 15px;
+}
+
+.channelRow__text > h4 {
+  display: flex;
+  text-align: center;
+}

@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #202020;
+}
+
+.header__logo {
+  width: 95px;
+  object-fit: contain;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.header__input {
+  display: flex;
+  align-items: center;
+  width: 46%;
+}
+
+.header__inputButton {
+  width: 55px !important;
+  height: 29px !important;
+  border-left: 1px solid #454545;
+  background-color: #454545;
+  cursor: pointer;
+  margin-top: 4px;
+}
+
+.header__inputMic {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+}
+
+.header__input > input {
+  flex: 1;
+  font-size: 16px;
+  background-color: #030303;
+  border: none;
+  border: 1px solid #454545;
+  height: 25px;
+  color: white;
+}
+
+.header__rightIcons {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.header__left {
+  cursor: pointer;
+}
+
+.header__accountIcon {
+  height: 35px !important;
+  width: 35px !important;
+}
